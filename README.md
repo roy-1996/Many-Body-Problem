@@ -1,7 +1,10 @@
 # Many-Body-Problem
-For running the program:
+
+For program compilation:
 
 gcc -fopenmp many_body_problem.c -lm -o mbp
+
+For program execution:
 
 ./mbp
 
