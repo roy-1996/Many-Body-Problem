@@ -2,6 +2,7 @@
 For running the program:
 
 gcc -fopenmp many_body_problem.c -lm -o mbp
+
 ./mbp
 
 Google Drive shareable link for the log file and the trajectory file
