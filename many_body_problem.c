@@ -49,22 +49,18 @@ Avg_Acceleration A_avg[N];					/* A_avg[] stores the average acceleration of the
 
 
 
-
-
-
-
 int main()
 {
 
 	int i,body0,body1,k = 1,number_of_iterations = 0 ;
 	double distance , cos_theta_x , cos_theta_y , cos_theta_z , new_x_ac , new_y_ac , new_z_ac ,force ;
 	double begin_time,end_time,diff,time_elapsed = 0,actual_simulation_time,point1,prev_x,prev_y,prev_z,gap1,gap2;
-	FILE * fp,*fp1;
+	FILE *fp,*fp1;
 	char data[100],data1[100];
 
+	
 	fp = fopen("trajectory1.txt","w");
 	fp1 = fopen("log.txt","a");
-
 
 	char comm[20] = "sh write.sh";
 	system(comm);
@@ -143,7 +139,6 @@ int main()
 			       position[body0].x = gap1;
 			       
 			       velocity[body0].vx = -velocity[body0].vx;
-			       
 			    }
 			    
 			}
