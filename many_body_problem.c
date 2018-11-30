@@ -109,11 +109,11 @@ int main()
 
 		for ( body0 = 0 ; body0 < N ; body0++ )
 		{
-
+			/*
 			A[body0].ax = A_avg[body0].ax;
 			A[body0].ay = A_avg[body0].ay;
 			A[body0].az = A_avg[body0].az;
-
+			*/
 
 			/* Calculating the new position of the body in the x-direction */
 			
